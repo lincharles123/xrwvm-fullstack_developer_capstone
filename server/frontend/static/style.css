@@ -124,3 +124,36 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 90%;
+  margin: 50px auto 0 auto;
+}
+
+.contact-img,
+.contact-info {
+  flex: 1 1 400px;
+  min-width: 400px;
+}
+
+.contact-info {
+  text-align: center;
+  color: darkslateblue;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.info-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.info-title + p {
+  margin: 0;
+}
